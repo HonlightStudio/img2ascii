@@ -7,7 +7,7 @@ using SixLabors.ImageSharp.Processing;
 
 class img2ascii
 {
-    const string Chars = "@%#*+=-:. ";
+    const string Chars = "@%#*+=-:.";
 
     static void Main()
     {
@@ -47,7 +47,7 @@ class img2ascii
                     for (int j = 0; j < image.Width; j++)
                     {
                         int gray = (image[j, i].R + image[j, i].G + image[j, i].B) / 3;
-                        char toAdd = Chars[Chars.Length-1-((gray * (Chars.Length - 1)) / 255)];
+                        char toAdd = Chars[(gray * (Chars.Length - 1)) / 255];
                         sb.Append(toAdd);
                     }
 
