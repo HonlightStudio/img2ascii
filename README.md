@@ -1,0 +1,17 @@
+# ASCII Art Generator in C#
+
+![ASCII Art Preview](https://img.icons8.com/ios-filled/50/000000/console.png)
+
+Convert your images into stunning ASCII art directly in your console! This **C# Console Application** uses **ImageSharp** to load and process images and outputs a high-detail ASCII representation. You can also optionally save the result to a text file.
+
+---
+
+## 🌟 Features
+
+- Supports image formats: `.png`, `.jpg`, `.jpeg`, `.bmp`
+- Checks for valid file paths and image formats
+- Converts images into ASCII using over **70 characters** for high detail
+- Optional output to a text file
+- Automatically resizes images to fit console display
+- Lightweight, fast, and cross-platform
+
